@@ -15,7 +15,7 @@ class _Loading_AnimatsiyaState extends State<Loading_Animatsiya> {
       body: Center(
         child: Row(
           children: [
-          CircularProgressIndicator(),
+            CircularProgressIndicator(),
             Text("Yuklanmoqa iltimoskuting"),
           ],
         ),

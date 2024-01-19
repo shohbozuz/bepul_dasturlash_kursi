@@ -44,14 +44,14 @@ class _SettingsState extends State<Settings> {
               SizedBox(height: 15),
               GestureDetector(
                 onTap: () {
-                  // Navigator.push(
-                  //   context,
-                  //   MaterialPageRoute(
-                  //     builder: (context) {
-                  //       return Profil(); // Yangi sahifani ochish
-                  //     },
-                  //   ),
-                  // );
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return Profil(); // Yangi sahifani ochish
+                      },
+                    ),
+                  );
                 },
                 child: Container(
                   margin:

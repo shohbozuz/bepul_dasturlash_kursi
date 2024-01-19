@@ -140,7 +140,7 @@ class _State extends State<LoginScreen> {
       appBar: AppBar(
         backgroundColor: AppColors.bar_color,
         title: Center(
-          child: Text("Kirish"),
+          child: Text("Kirish",),
         ),
       ),
       body: Padding(
